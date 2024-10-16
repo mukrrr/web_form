@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block title %}
+About Sentinels
+{% endblock %}
+
+{% block content %}
+<div class="header">
+    <div class="logo-info">
+        <img src="{% static 'img/logosen.png' %}" alt="Sentinels Logo" class="logo">
+        <div class="team-info">
+            <h1>Sentinels</h1>
+        </div>
+        <div class="description">
+            <p>Sentinels are a professional esports organization based in the United States of America and have headquarters in Los Angeles, they were founded in June 2018. Their VALORANT division was created in March 2020 making them one of the longest serving professional organizations in VALORANT. Sentinels were the first team to win the first ever official Riot Games Valorant Champions Tour LAN event which was held in Reykjavik, Iceland in May 2021. Sentinels also compete in professional Apex Legends, Fortnite, Halo, Hearthstone and Wild Rift.</p>
+        </div>
+    </div>
+    <div class="winnings">
+        <p>Total Winnings</p>
+        <p>€1,004,000</p>
+    </div>
+</div>
+{% endblock %}
